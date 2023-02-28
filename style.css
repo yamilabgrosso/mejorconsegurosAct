@@ -129,6 +129,15 @@ nav hr {
     border-bottom: none;
 }
 
+.modal .button-loquiero{
+    margin: 2% auto;
+    width: 132px;
+}
+
+.modal button a{
+    text-decoration: none;
+}
+
 .type-orange {
     color: #ffffff;
     font-weight: 700;
@@ -236,7 +245,9 @@ main .marcas img {
     width: 50%
 }
 
-
+.masInfo{
+    cursor: pointer;
+}
 .ofrecimientoXMarca {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
