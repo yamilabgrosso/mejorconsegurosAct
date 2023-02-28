@@ -853,5 +853,7 @@ footer img {
         display: none;
     }
 
-
+    .mainEquipo{
+        height: 30rem;
+    }
 }
