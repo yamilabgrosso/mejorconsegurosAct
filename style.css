@@ -23,6 +23,7 @@ a {
 
 nav {
     background-color: #3bbded;
+    z-index: 999;
 }
 
 nav div {
