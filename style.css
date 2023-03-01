@@ -23,7 +23,6 @@ a {
 
 nav {
     background-color: #3bbded;
-    z-index: 999;
 }
 
 nav div {
@@ -42,6 +41,7 @@ nav hr {
     width: 100%;
     align-items: center;
     --bs-nav-link-hover-color: #ffffff;
+    z-index: 999;
 }
 
 .menu a {
@@ -218,7 +218,7 @@ nav hr {
     width: 100%;
     right: 16%;
     top: 50%;
-    transform: translate(-16%, -50%);
+    transform: translate(-16%, -48%);
 }
 
 
