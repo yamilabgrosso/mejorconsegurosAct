@@ -37,19 +37,8 @@ nav hr {
 }
 
 .menu {
-    justify-content: end;
-    width: 100%;
-    align-items: center;
-    --bs-nav-link-hover-color: #ffffff;
-    z-index: 999;
-}
-
-.menu a {
-    color: rgb(246, 242, 242);
-    font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0 20px;
     padding-bottom: 5px;
+    z-index: 99;
 }
 
 .menu a:hover {
