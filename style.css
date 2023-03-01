@@ -23,6 +23,7 @@ a {
 
 nav {
     background-color: #3bbded;
+  
 }
 
 nav div {
@@ -37,8 +38,19 @@ nav hr {
 }
 
 .menu {
-    padding-bottom: 5px;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+    --bs-nav-link-hover-color: #ffffff;
     z-index: 99;
+}
+
+.menu a {
+    color: rgb(246, 242, 242);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+    padding-bottom: 5px;
 }
 
 .menu a:hover {
@@ -207,7 +219,7 @@ nav hr {
     width: 100%;
     right: 16%;
     top: 50%;
-    transform: translate(-16%, -48%);
+    transform: translate(-16%, -50%);
 }
 
 
