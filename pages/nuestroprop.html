@@ -8,7 +8,7 @@
     <title>Mejor con Seguros | Propósito</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="shortcut icon" href="../images/mejor-conseg.png" type="image/x-icon">  
+    <link rel="shortcut icon" href="../images/mejor-conseg.png" type="image/x-icon">
     <link rel="stylesheet" href="../style.css">
 </head>
 
@@ -34,16 +34,16 @@
                             <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#vidaModal">
                                     Protegé tu vida</a>
                             </li>
-                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#vidaModal">
+                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#tuvidaModal">
                                     Protegé tu salud</a>
                             </li>
-                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#vidaModal">
+                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#bienestarModal">
                                     Protegida ante accidentes</a>
                             </li>
-                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#vidaModal">
+                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#lugarModal">
                                     Protegé tu casa</a>
                             </li>
-                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#vidaModal">
+                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#pertenenciasModal">
                                     Tu bolso protegido</a>
                             </li>
                         </ul>
@@ -98,7 +98,7 @@
         </section>
 
 
-        <!-- Modal Protege tu vida -->
+        <!-- Modal Protege lo que más querés -->
         <div class="modal fade" id="vidaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
@@ -108,9 +108,144 @@
                     </div>
                     <div class="modal-body">
                         <div class="flex-c-center">
-                            <img class="logoModal" src="../images/la-segunda-seguros.png" alt="Logo la segunda seguros">
+                            <img class="logoModal" src="..images/cnp-seguros-color.png" alt="Logo CNP Seguros">
                             <hr>
-                            <img class="iconoModal" src="../images/bolso-azul.png" alt="Bolso azul">
+                            <img class="iconoModal" src="..images/cora-azul.png" alt="Corazón">
+                            <h2>Protegé lo que más querés</h2>
+                        </div>
+                        <p>Tu trabajo, tu contexto o tus ingresos pueden variar a lo largo de tu vida, pero tus
+                            necesidades básicas y las de tu familia van a ser siempre las mismas. Viví con la
+                            tranquilidad de que los que más querés, tendrán un respaldo económico en su futuro.
+                        </p>
+                        <h3>Seguro de Vida</h3>
+                        <p>Este seguro te cubre por fallecimiento de cualquier causa por un valor de $1.000.000 y tiene
+                            un ajuste máximo anual del 50%.
+                        </p>
+                    </div>
+                    <button class="btn type-orange button-loquiero" data-bs-dismiss="modal"><a href="#irForm"> LO
+                            QUIERO</a></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Protege tu propia vida -->
+        <div class="modal fade" id="tuvidaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close closeModal" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="flex-c-center">
+                            <img class="logoModal" src="..images/sancor-seguros-color.png" alt="Logo Sancor Seguros">
+                            <hr>
+                            <img class="iconoModal" src="..images/mas-azul.png" alt="Salud">
+                            <h2>Protegé tu propia vida</h2>
+                        </div>
+                        <p>El aumento de las enfermedades relacionadas con el estilo de vida, el incremento de los
+                            accidentes y por ende, los elevados gastos médicos, entre otros motivos, hacen que contar
+                            con un Seguro de Salud se vuelva una verdadera inversión.
+                        </p>
+                        <h3>Salud Segura Mujer</h3>
+                        <p>Cuenta con una cobertura cuya suma asegurada es de $420.000 en cualquier lugar del mundo, los
+                            365 días del año, las 24 horas. La edad mínima de ingreso es de 15 años y protege a mujeres
+                            de hasta 60 años.
+                            <br><br>
+                            Coberturas: cáncer primario (de mama, cérvix o cuello uterino,ovarios, endometrio uterino).
+                            Y tiene adicionales en mamografía y papanicolau con un reintegro de hasta $1.000.
+                        </p>
+                    </div>
+                    <button class="btn type-orange button-loquiero" data-bs-dismiss="modal"><a href="#irForm"> LO
+                            QUIERO</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Protege tu lugar en el mundo -->
+        <div class="modal fade" id="lugarModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close closeModal" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="flex-c-center">
+                            <img class="logoModal" src="..images/rus-seguros-color.png" alt="Logo RUS Seguros">
+                            <hr>
+                            <img class="iconoModal" src="..images/pulso-azul.png" alt="Corazón con línea de pulso">
+                            <h2>Protegé tu lugar en el mundo</h2>
+                        </div>
+                        <p>Tener un Seguro de Hogar es un respaldo económico que brinda estabilidad y garantiza
+                            seguridad. Siempre tenemos necesidades de mantenimiento o averías imprevistas por las cuales
+                            tenés que recurrir a un profesional para repararlas. Esto implica un desembolso económico,
+                            que en la mayoría de los casos cubre el seguro.
+                        </p>
+                        <h3>Pack Hogar</h3>
+                        <p>Seas propietaria o no, de la vivienda de uso familiar, te cubre en caso de incendios, rotura
+                            de cristales, robo de mobiliario y todo riesgo en electrodomésticos y tecnología. Además,
+                            cuenta con servicios adicionales.<br><br>
+                            Coberturas y sumas aseguradas:<br>
+                            Incendio de edificio: $3.000.000<br>
+                            Incendio contenido: $600.000<br>
+                            Todo Riesgo electrodomésticos: $90.000<br>
+                            Todo Riesgo tecnología (excluye hurto): $30.000<br>
+                            Rotura de cristales: $6.000<br>
+                        </p>
+                    </div>
+                    <button class="btn type-orange button-loquiero" data-bs-dismiss="modal"><a href="#irForm"> LO
+                            QUIERO</a></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Protege tu bienestar -->
+        <div class="modal fade" id="bienestarModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close closeModal" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="flex-c-center">
+                            <img class="logoModal" src="..images/triunfo-seguros-color.png" alt="Logo Triunfo Seguros">
+                            <hr>
+                            <img class="iconoModal" src="..images/casa-azul.png" alt="Casa">
+                            <h2>Protegé tu bienestar</h2>
+                        </div>
+                        <p>Mantener una adecuada salud financiera es sumamente importante. Tener un Seguro de Accidentes
+                            Personales te garantiza mantener una calidad de vida de tu entorno en caso de tener un
+                            accidente.</p>
+                        <h3>Accidentes Personales</h3>
+                        <p>Tiene un mínimo de 5 titulares, cobertura básica de muerte por accidente y cláusulas
+                            adicionales por invalidez, más gastos médicos ocasionados por accidente.<br>
+                            Su edad límite de ingreso es de 64 años y su límite de permanencia es 65.<br>
+                            El capital máximo es de $1.000.000 y cuenta con asistencia médica farmacéutica cuya suma
+                            asegurada es de $200.000.
+                        </p>
+                    </div>
+                    <button class="btn type-orange button-loquiero" data-bs-dismiss="modal"><a href="#irForm"> LO
+                            QUIERO</a></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Protege tus pertenencias -->
+        <div class="modal fade" id="pertenenciasModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close closeModal" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="flex-c-center">
+                            <img class="logoModal" src="..images/la-segunda-seguros.png" alt="Logo la segunda seguros">
+                            <hr>
+                            <img class="iconoModal" src="..images/bolso-azul.png" alt="Bolso azul">
                             <h2>Protegé tus pertenencias</h2>
                         </div>
                         <p>Vivimos expuestos todo el tiempo y hacemos grandes esfuerzos para tener nuestros bienes.
@@ -135,6 +270,8 @@
                             directa de la persona asegurada.
                         </p>
                     </div>
+                    <button class="btn type-orange button-loquiero" data-bs-dismiss="modal"><a href="#irForm"> LO
+                            QUIERO</a></button>
                 </div>
             </div>
         </div>
